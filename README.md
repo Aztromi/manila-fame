@@ -40,20 +40,20 @@
    
 2. **Install PHP dependencies**
  ```bash
-   composer install
+composer install
 ```
 3. **Install JS dependencies**
  ```bash
-    npm install
+npm install
 ```
 4. **Create the database**
  ```SQL
-     CREATE DATABASE IF NOT EXISTS your_database_name;
+CREATE DATABASE IF NOT EXISTS manila_fame_db;
 ```
 5. **Environment file**
 - Copy .env.example to .env:
  ```bash
-    .env.example .env
+cp .env.example .env
 ```
  - Edit .env and set your local values:
  ```env
