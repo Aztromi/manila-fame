@@ -72,7 +72,7 @@
                                         submitted.
                                     </p>
                                     <img
-                                        :src="ThankYouGif"
+                                        :src="`/storage/thankyou.gif`"
                                         class="rounded-md"
                                         alt="thankyou"
                                     />
@@ -120,7 +120,6 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import AccountInformation from "../components/registration_page/AccountInformation.vue";
 import CompanyInformation from "../components/registration_page/CompanyInformation.vue";
 import RegistrationSummary from "../components/registration_page/RegistrationSummary.vue";
-const ThankYouGif = "/storage/thankyou.gif";
 export default {
     name: "RegistrationForm",
     components: { AccountInformation, CompanyInformation, RegistrationSummary },
