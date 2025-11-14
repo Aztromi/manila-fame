@@ -18,6 +18,31 @@
 - File upload handling (company brochure) — stored in `storage/app/public`
 - Example `.env.example` and migration/seeder files
 
+## 🎨 Color Palette & Typography
+
+### Color Palette
+
+| Purpose               | Color              | Hex / Notes                                              |
+|-----------------------|------------------|---------------------------------------------------------|
+| Primary / Accent      | Deep Green        | `#1F3D2B` – CTA buttons, highlights, navigation, headers |
+| Secondary / Accent    | Olive / Beige     | `#7B8C68` – hover states, secondary buttons, subtle highlights |
+| Neutral / Background  | Light Beige       | `#FFFDF7` – page backgrounds, form fields, sections |
+| Complementary Accent  | Warm Brown        | `#6B4E2E` – decorative elements, dividers, icons |
+| Vibrant Accent        | Coral / Orange    | `#C47C48` – subtle highlights or callouts |
+| Text Primary          | Dark Gray / Charcoal | `#1F1F1F` – main body text |
+| Text Secondary        | Gray              | `#7B8C68` – secondary text, captions, descriptions |
+
+> This palette blends earthy tones (beiges, browns, deep greens) with vibrant accents representing Filipino craftsmanship.
+
+### Typography
+
+| Element              | Font                  | Notes / Usage                                      |
+|----------------------|---------------------|---------------------------------------------------|
+| Headlines / Hero     | Elegant Serif / Display | *Playfair Display*, *Merriweather*, or *Cormorant Garamond*; bold, large for hero and section headings |
+| Body Text / Paragraphs | Clean Sans-Serif      | *Inter*, *Roboto*, or *Lato*; readable, modern, neutral |
+| Buttons / CTAs       | Sans-Serif Bold       | Match body font, use uppercase or bold for emphasis |
+| Captions / Small Text | Sans-Serif Light / Medium | Slightly lighter weight for secondary info like dates, locations, or small labels |
+
 ---
 
 ## Prerequisites (local dev)
