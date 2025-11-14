@@ -57,3 +57,32 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# Manila FAME — Multi-step Registration (Laravel + Vue + Vite)
+
+**Project:** Multi-step registration + landing page for Manila FAME  
+**Stack:** Laravel (PHP), MySQL, Vue 3 (Vite), Tailwind / Bootstrap (UI), Axios
+
+## What’s included
+- Laravel API endpoints (`/api/countries`, `/api/register`)
+- Vue 3 frontend (Vite) mounted via Blade for `/` (landing) and `/register`
+- Country seeder (`CountrySeeder`) with countries list
+- File upload handling (company brochure) — stored in `storage/app/public`
+- Example `.env.example` and migration/seeder files
+
+---
+
+## Prerequisites (local dev)
+- PHP 8.1+ (or required version in `composer.json`)
+- Composer
+- Node.js 16+ and npm (or yarn)
+- MySQL (or compatible DB)
+- Git
+
+---
+
+## Quick setup (development)
+
+1. **Clone (HTTPS)**  
+   ```bash
+   git clone https://github.com/<your-username>/<repo-name>.git
+   cd <repo-name>
