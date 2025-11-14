@@ -46,7 +46,11 @@
  ```bash
     npm install
 ```
-4. **Environment file**
+4. **Create the database**
+ ```SQL
+     CREATE DATABASE IF NOT EXISTS your_database_name;
+```
+5. **Environment file**
 - Copy .env.example to .env:
  ```bash
     cp .env.example .env
@@ -64,30 +68,30 @@ DB_PASSWORD=your_db_password
 ```
  - Important: Do not commit .env to the repo.
 
-5. **Generate Laravel app key**
+6. **Generate Laravel app key**
  ```bash
 php artisan key:generate
 ```
 
-6. **Run migrations & seeders**
+7. **Run migrations & seeders**
  ```bash
 php artisan migrate
 php artisan db:seed --class=CountrySeeder
 ```
  - If migrations fail, ensure DB exists and .env DB credentials are correct.
 
-7. **Storage link (for public uploads)**
+8. **Storage link (for public uploads)**
 ```bash
 php artisan storage:link
 ```
-8. **Run dev servers**
+9. **Run dev servers**
  - This will start both Laravel and Vite servers
 ```bash
 npm run serve
 ```
  - Note: When using @vite('resources/js/app.js') in Blade, Vite dev server will serve compiled assets.
 
-9. **Visit locally**
+10. **Visit locally**
  - Landing page: http://127.0.0.1:8000/
  - Registration SPA: http://127.0.0.1:8000/register
  - API countries endpoint: http://127.0.0.1:8000/api/countries
