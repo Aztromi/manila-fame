@@ -51,7 +51,7 @@
 - Node.js 16+ and npm (or yarn)
 - MySQL (or compatible DB)
 - Git
-
+- Figma Design: https://www.figma.com/design/l3PwssiszVIjPHMr2AWHj9/Untitled?node-id=0-1&t=jViV5n57tWNqzmaI-1
 ---
 
 ## Quick setup (development)
